@@ -1,10 +1,5 @@
 # Pre-work - *csblog1*
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove the `README.rdoc` file that Rails generates. 
-> - remove all the HINT blocks in this file.
-
 **csblog1** is a Ruby on Rails blog application.
 
 Submitted by: **Steve Cho**
@@ -16,8 +11,6 @@ URL: **Insert your Heroku URL here**
 ## User Stories
 
 The following **required** functionality is complete:
-
-> HINT: mark the items you completed with [x]
 
 * [X] User can create a new post, formatted using the Markdown language.
 * [x] User can edit an existing post.
@@ -44,21 +37,17 @@ The following **additional** features are implemented:
 
 
 
-## Video Walkthrough 
+## Video Walkthrough CHECK
 
 Here's a walkthrough of implemented user stories:
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)` 
-> 
-
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered while building the app.
 
 - My search form doesn't work full 100%... for example, "App" is on one title and I put that in search, and it doesn't return that specific post... no idea why as of writing this (9-28-16 2:49 pm)
 
