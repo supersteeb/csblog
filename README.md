@@ -6,7 +6,7 @@ Submitted by: **Steve Cho**
 
 Time spent: 10 hours spent in total
 
-URL: **Insert your Heroku URL here**
+URL: **https://csblog1.herokuapp.com/**
 
 ## User Stories
 
@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 
 
-## Video Walkthrough CHECK
+## Video Walkthrough (created sep 28 @ 3:57 pm — so things have been updated. shows minimum requirements met)
 
 Here's a walkthrough of implemented user stories:
 
