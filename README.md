@@ -53,6 +53,8 @@ Challenges encountered while building the app.
 
 - Ever since I tried creating a search function, it duplicated some posts? but only twice? WTF?!
 
+- 9-28 4:30 pm: fucking ... changed   config.assets.compile = true  to true 'cuz apparently it would deploy on heroku. Nope didn't work. Gonna bug Charles...
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
