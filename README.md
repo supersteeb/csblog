@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 - [] List anything else that you can get done to improve the app functionality!
 
-** Here is the list **
+**Here is the list**
 - Can add "delete" function on the edit part. 
 - Also, have a "show" full article, that on the index page, only displays like up to 250 characters or whatever for long articles. 
 
