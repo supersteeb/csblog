@@ -55,6 +55,14 @@ Challenges encountered while building the app.
 
 - 9-28 4:30 pm: fucking ... changed   config.assets.compile = true  to true 'cuz apparently it would deploy on heroku. Nope didn't work. Gonna bug Charles...
 
+- 10-3 12:32 pm: (copy and pasted what I thought was a deleted post from a previously opened session in browser) I learned that you could upload pictures to your dropbox folder and then use that link. Had to do it for my photo. Have yet to learn how to use image or asset within app and refer to it with markdown effectively.
+
+Learned that with markdown, you can resize images by (~/image path =##x) but with an external image doesn't work.
+
+edit: Very interesting.... I learned upon creation of an article... then when you search it, it duplicates it. Reason unknown as of now (sep 28, 3:23 pm). Am checking to see if this one is edited and then becomes reduplicated or the duplicate also edits or what...
+
+Edit* 3:29: the duplicate also does edit. so... seems like it only duplicates it twice (and max twice)...
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
