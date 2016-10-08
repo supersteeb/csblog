@@ -12,14 +12,14 @@
       <a class="nav-link" href="#">About</a>
     </li>
   </ul>
-<%= form_tag(articles_path, :method => "get", id: "search-form") do %>
+<%= form_tag(articles_path, method: "get", id: "search-form") do %>
 <%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
 <%= submit_tag "Search" %>
 <% end %>
 </nav>	
 
 <% if @articles.present? %>
-  <%= render @articles %>
+  <%= render @articles, locals: {article_length: 140} %>
 <% else %>
   <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
 <% end %>

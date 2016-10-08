@@ -32,6 +32,10 @@ The following **additional** features are implemented:
 **Here is the list**
 - Can add "delete" function on the edit part. 
 - Also, have a "show" full article, that on the index page, only displays like up to 250 characters or whatever for long articles. 
+    - (https://www.youtube.com/watch?v=mSoae3F7MO4 @ 25:07)
+    - <div><%= truncate(article.body, :length => 140) %></div>
+    <%= link_to "Read Posts", article %>
+
 
 
 
