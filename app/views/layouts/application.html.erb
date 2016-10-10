@@ -15,19 +15,24 @@
   <ul class="nav navbar-nav">
     <li class="nav-item active">
       <a class="nav-link" href="#">
-      <%= link_to "Home", root_path %> <span class="sr-only">(current)</span></a>
+      <%= link_to "Home", root_path, :class => 'nav-link' %> <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">About</a>
     </li>
 
-
-<%= form_tag(articles_path, method: "get", id: "search-form") do %>
-<%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
-<%= submit_tag "Search" %>
-<% end %>
+<div class="row">
+	<div class="col-lg-6">
+	<%= form_tag(articles_path, method: "get", id: "search-form") do %>
+	<%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
+	<span class="input-group-btn"> 
+		<%= submit_tag "Search", :class => 'btn btn-default', :type => 'button' %>
+		<% end %>
+	</span>
+	</div>
+</div>
     <li class="nav-item">
-    	<%= link_to "New Article", new_article_path %>
+    	<%= link_to "New Article", new_article_path, :class => 'nav-link' %>
     </li>
       </ul>
 </nav>	
